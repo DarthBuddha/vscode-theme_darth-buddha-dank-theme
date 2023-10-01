@@ -1,21 +1,41 @@
 {
-  "name": "darth-buddha-vscode-theme",
-  "displayName": "darth_buddha_vscode_theme",
-  "description": "Darth Buddha's Custom Color Theme",
-  "version": "0.0.1",
-  "engines": {
+    "name": "darth-buddha-vscode-theme",
+    "displayName": "darth_buddha_vscode_theme",
+    "description": "Darth Buddha's Custom Color Theme",
+    "author": "Darth Buddha @Darth_Buddha",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://github.com/DarthBuddha/darth-buddha-vscode-theme",
+    "icon": "darth_buddha.png",
+    "galleryBanner": {
+		"color": "#1b1f23",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DarthBuddha/darth-buddha-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/DarthBuddha/darth-buddha-vscode-theme/issues"
+	},
+    "engines": {
     "vscode": "^1.82.0"
-  },
-  "categories": [
+    },
+    "categories": [
     "Themes"
-  ],
-  "contributes": {
+    ],
+    "keywords": [
+		"theme",
+		"dark",
+		"dank"
+	],
+    "contributes": {
     "themes": [
-      {
+    {
         "label": "DB Dank Theme",
         "uiTheme": "hc-black",
         "path": "./themes/DB Dank Theme-color-theme.json"
-      }
+    }
     ]
-  }
+    }
 }
