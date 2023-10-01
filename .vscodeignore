@@ -1,4 +1,10 @@
+# DARTH-BUDDHA-VSCODE-THEME
+
+# Files
+.gitignore
+
+# Folders
+.DEV-BUDDHA
+.src/**
 .vscode/**
 .vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
