@@ -1,0 +1,21 @@
+{
+  "name": "darth-buddha-vscode-theme",
+  "displayName": "darth_buddha_vscode_theme",
+  "description": "Darth Buddha's Custom Color Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DB Dank Theme",
+        "uiTheme": "hc-black",
+        "path": "./themes/DB Dank Theme-color-theme.json"
+      }
+    ]
+  }
+}
