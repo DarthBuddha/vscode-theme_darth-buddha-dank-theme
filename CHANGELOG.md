@@ -1,11 +1,9 @@
-# DARTH-BUDDHA-VSCODE-THEME
+# Change Log
 
-## Change Log
-
-All notable changes to the "darth-buddha-vscode-theme" extension will be documented in this file.
+All notable changes to the "Darth-Buddha" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-### [Unreleased]
+## [Unreleased]
 
 - Initial release
