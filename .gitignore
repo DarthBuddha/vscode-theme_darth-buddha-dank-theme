@@ -1,2 +1,8 @@
-node_modules
+# DARTH-BUDDHA-VSCODE-THEME
+
+# Files
 *.vsix
+
+#Folders
+.DEV-BUDDHA/**
+node_modules
