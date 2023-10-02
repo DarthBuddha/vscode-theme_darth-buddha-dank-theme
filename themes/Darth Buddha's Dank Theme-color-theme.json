@@ -86,7 +86,7 @@
                 "source.python",
             ],
             "settings": {
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -98,7 +98,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -107,6 +107,7 @@
                 "keyword.operator.assignment.python",
                 "keyword.operator.comparison.python",
                 "keyword.operator.logical.python",
+                "keyword.operator.arithmetic.python",
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -117,6 +118,7 @@
             "name": "Python - f String",
             "scope": [
                 "storage.type.string.python",
+                "constant.character.format.placeholder.other.python",
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -124,22 +126,34 @@
             }
         },
         {
-            "name": "python-string",
+            "name": "Python - String Starts",
             "scope": [
-                "string.quoted.single.python",
+                "punctuation.definition.string.begin.python",
+                "punctuation.definition.string.end.python",
             ],
             "settings": {
+                "fontStyle": "bold",
                 "foreground": "#FF8F1C"
             }
         },
         {
-            "name": "python-docstring",
+            "name": "Python - String",
+            "scope": [
+                "string.quoted.single.python",
+                "string.quoted.docstring.multi.python",
+            ],
+            "settings": {
+                "foreground": "#FDD086"
+            }
+        },
+        {
+            "name": "Python - Docstring",
             "scope": [
                 "string.quoted.docstring.multi.python",
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FF8F1C"
+                "fontStyle": "italic bold",
+                "foreground": "#707372"
             }
         },
         {
@@ -212,7 +226,7 @@
                 "source.dotenv",
             ],
             "settings": {
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -252,7 +266,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -262,7 +276,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -306,7 +320,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -316,7 +330,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#DDDAE8"
+                "foreground": "#C7C9C7"
             }
         },
         {
@@ -337,6 +351,58 @@
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#009CDE"
+            }
+        },
+        {
+            "name": "Json - text",
+            "scope": [
+                "punctuation.support.type.property-name.begin.json",
+                "punctuation.support.type.property-name.end.json",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": "Json - text",
+            "scope": [
+                "support.type.property-name.json",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FDD086"
+            }
+        },
+        {
+            "name": "Json - text",
+            "scope": [
+                "punctuation.separator.dictionary.key-value.json",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": "Json - text",
+            "scope": [
+                "punctuation.definition.string.begin.json",
+                "punctuation.definition.string.end.json",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#5BC2E7"
+            }
+        },
+        {
+            "name": "Json - text",
+            "scope": [
+                "string.quoted.double.json",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#C7C9C7"
             }
         },
     ],
