@@ -114,6 +114,16 @@
             }
         },
         {
+            "name": "Python - f String",
+            "scope": [
+                "storage.type.string.python",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
             "name": "python-string",
             "scope": [
                 "string.quoted.single.python",
@@ -193,7 +203,6 @@
                 "constant.numeric.dec.python",
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#6CC24A"
             }
         },
@@ -264,6 +273,70 @@
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#00B140"
+            }
+        },
+        {
+            "name": "markdown-heading",
+            "scope": [
+                "heading.1.markdown",
+                "heading.2.markdown",
+                "heading.3.markdown",
+                "heading.4.markdown",
+                "heading.5.markdown",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#3A913F"
+            }
+        },
+        {
+            "name": "markdown-list",
+            "scope": [
+                "punctuation.definition.list.begin.markdown",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": "markdown-text",
+            "scope": [
+                "meta.paragraph.markdown",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "markdown-text",
+            "scope": [
+                "markup.bold.markdown",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "Markdown - Text Bold",
+            "scope": [
+                "punctuation.definition.bold.markdown",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#963821"
+            }
+        },
+        {
+            "name": "markdown-text",
+            "scope": [
+                "meta.link.inline.markdown",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#009CDE"
             }
         },
     ],
