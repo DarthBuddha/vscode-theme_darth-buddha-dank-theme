@@ -1,3 +1,7 @@
 # Darth Buddha Dank - VS Code-Theme
 
-Pantone C - Color's
+## My personal Theme
+
+* Pantone C - Color pallet.
+
+* Dark - High Contest - Dank

@@ -3,7 +3,8 @@
 	"displayName": "db-dank-theme",
 	"description": "Darth Buddha's Dank Theme",
 	"version": "0.0.1",
-	"author": "Darth Buddha",
+	"author": "DarthBuddha",
+	"publisher": "DarthBuddha",
 	"license": "MIT",
 	"icon": "icon.png",
 	"galleryBanner": {

@@ -1,9 +1,7 @@
-# Change Log
+# Darth Buddha's Dank Theme - Change Log
 
-All notable changes to the "Darth-Buddha" extension will be documented in this file.
+The Start of something good.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## Change Log
 
-## [Unreleased]
-
-- Initial release
+* v0.0.1 - First Release
