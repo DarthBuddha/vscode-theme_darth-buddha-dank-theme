@@ -1,7 +1,16 @@
-# Darth Buddha Dank - VS Code-Theme
 
-## My personal Theme
+# Darth Buddha's Dank Theme
 
-* Pantone C - Color pallet.
+My personal Theme
 
-* Dark - High Contest - Dank
+Pantone C - Color pallet
+
+Dark - High Contest - Dank
+
+## Language Support
+
+- Python    - .py
+- Git       - .gitignore
+- Dotenv    - .env
+
+#### Darth Buddha's Dank Theme - [Darth Buddha on Github](https://github.com/DarthBuddha)
