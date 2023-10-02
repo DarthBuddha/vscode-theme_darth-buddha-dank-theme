@@ -1,169 +1,269 @@
 {
     "name": "Darth Buddha's Dank Theme",
     "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "namespace": {
+            "fontStyle": "italic bold",
+            "foreground": "#00AB84"
+        },
+        "type": {
+            "fontStyle": "bold",
+            "foreground": "#00AB84"
+        },
+        "type.defaultLibrary": {
+            "fontStyle": "strikethrough",
+            "foreground": "#E4002B"
+        },
+        "struct": {
+            "foreground": "#00AB84"
+        },
+        "class": {
+            "fontStyle": "bold",
+            "foreground": "#00AB84"
+        },
+        "class.defaultLibrary": {
+            "fontStyle": "italic",
+            "foreground": "#00AB84"
+        },
+        "interface": {
+            "fontStyle": "strikethrough",
+            "foreground": "#E4002B"
+        },
+        "enum": {
+            "fontStyle": "bold",
+            "foreground": "#00AB84"
+        },
+        "function": {
+            "foreground": "#F0E87B"
+        },
+        "function.defaultLibrary": {
+            "fontStyle": "bold",
+            "foreground": "#F0E87B"
+        },
+        "method": {
+            "foreground": "#F0E87B"
+        },
+        "macro": {
+            "fontStyle": "strikethrough",
+            "foreground": "#E4002B"
+        },
+        "variable": {
+            "foreground": "#5BC2E7"
+        },
+        "variable.readonly": {
+            "fontStyle": "bold",
+            "foreground": "#5BC2E7"
+        },
+        "variable.readonly.defaultLibrary": {
+            "fontStyle": "bold underline",
+            "foreground": "#5BC2E7"
+        },
+        "parameter": {
+            "fontStyle": "italic",
+            "foreground": "#5BC2E7"
+        },
+        "property": {
+            "fontStyle": "italic bold",
+            "foreground": "#5BC2E7"
+        },
+        "property.readonly": {
+            "fontStyle": "italic bold underline",
+            "foreground": "#5BC2E7"
+        },
+        "enumMember": {
+            "fontStyle": "italic",
+            "foreground": "#5BC2E7"
+        },
+        "event": {
+            "fontStyle": "strikethrough",
+            "foreground": "#E4002B"
+        },
+    },
     "tokenColors": [
         {
-            "name": "namespace",
-            "scope": "entity.name.namespace",
+            "name": "python",
+            "scope": [
+                "source.python",
+            ],
+            "settings": {
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "python-punctuation",
+            "scope": [
+                "punctuation.separator.period.python",
+                "punctuation.separator.colon.python",
+                "punctuation.separator.arguments.python",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "python-operator",
+            "scope": [
+                "keyword.operator.assignment.python",
+                "keyword.operator.comparison.python",
+                "keyword.operator.logical.python",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": "python-string",
+            "scope": [
+                "string.quoted.single.python",
+            ],
+            "settings": {
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": "python-docstring",
+            "scope": [
+                "string.quoted.docstring.multi.python",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": "python-comment",
+            "scope": [
+                "comment.line.number-sign.python",
+            ],
             "settings": {
                 "fontStyle": "italic bold",
-                "foreground": "#00AB84"
+                "foreground": "#00B140"
             }
         },
         {
-            "name": "type",
-            "scope": "entity.name.type",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#00AB84"
-            }
-        },
-        {
-            "name": "type.defaultLibrary",
-            "scope": "support.type",
-            "settings": {
-                "fontStyle": "strikethrough",
-                "foreground": "#E4002B"
-            }
-        },
-        {
-            "name": "struct",
-            "scope": "storage.type.struct",
-            "settings": {
-                "foreground": "#00AB84"
-            }
-        },
-        {
-            "name": "class",
-            "scope": "entity.name.type.class",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#00AB84"
-            }
-        },
-        {
-            "name": "class.defaultLibrary",
-            "scope": "support.class",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#00AB84"
-            }
-        },
-        {
-            "name": "interface",
-            "scope": "entity.name.type.interface",
-            "settings": {
-                "fontStyle": "strikethrough",
-                "foreground": "#E4002B"
-            }
-        },
-        {
-            "name": "enum",
-            "scope": "entity.name.type.enum",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#00AB84"
-            }
-        },
-        {
-            "name": "function",
-            "scope": "entity.name.function",
-            "settings": {
-                "foreground": "#FFAA4D"
-            }
-        },
-        {
-            "name": "function.defaultLibrary",
-            "scope": "support.function",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#FFAA4D"
-            }
-        },
-        {
-            "name": "method",
-            "scope": "entity.name.function.member",
-            "settings": {
-                "foreground": "#FFAA4D"
-            }
-        },
-        {
-            "name": "macro",
-            "scope": "entity.name.function.macro",
-            "settings": {
-                "fontStyle": "strikethrough",
-                "foreground": "#E4002B"
-            }
-        },
-        {
-            "name": "variable",
-            "scope": "variable.other.readwrite",
-            "settings": {
-                "foreground": "#5BC2E7"
-            }
-        },
-        {
-            "name": "variable.readonly",
-            "scope": "variable.other.constant",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#5BC2E7"
-            }
-        },
-        {
-            "name": "variable.readonly.defaultLibrary",
-            "scope": "support.constant",
-            "settings": {
-                "fontStyle": "bold underline",
-                "foreground": "#5BC2E7"
-            }
-        },
-        {
-            "name": "parameter",
-            "scope": "variable.parameter",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#5BC2E7"
-            }
-        },
-        {
-            "name": "property",
-            "scope": "variable.other.property",
+            "name": "python-keyword",
+            "scope": [
+                "keyword.control.import.python",
+                "keyword.control.flow.python",
+            ],
             "settings": {
                 "fontStyle": "italic bold",
-                "foreground": "#5BC2E7"
+                "foreground": "#963CBD"
             }
         },
         {
-            "name": "property.readonly",
-            "scope": "variable.other.constant.property",
-            "settings": {
-                "fontStyle": "italic bold underline",
-                "foreground": "#5BC2E7"
-            }
-        },
-        {
-            "name": "property.readonly",
-            "scope": "variable.other.constant.property",
-            "settings": {
-                "fontStyle": "strikethrough",
-                "foreground": "#E4002B"
-            }
-        },
-        {
-            "name": "enumMember",
-            "scope": "variable.other.enummember",
+            "name": "python-meta",
+            "scope": [
+                "meta.function-call.python",
+                "punctuation.definition.decorator.python",
+            ],
             "settings": {
                 "fontStyle": "italic",
+                "foreground": "#F0E87B"
+            }
+        },
+        {
+            "name": "python-storage",
+            "scope": [
+                "storage.type.function.python",
+                "storage.type.function.async.python",
+                "meta.class.python",
+                "constant.language.python",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
+            "name": "python-constant",
+            "scope": [
+                "constant.other.caps.python",
+            ],
+            "settings": {
+                "fontStyle": "bold",
                 "foreground": "#5BC2E7"
             }
         },
         {
-            "name": "event",
-            "scope": "variable.other.event",
+            "name": "python-constant.numeric",
+            "scope": [
+                "constant.numeric.dec.python",
+            ],
             "settings": {
-                "fontStyle": "strikethrough",
+                "fontStyle": "bold",
+                "foreground": "#6CC24A"
+            }
+        },
+        {
+            "name": "dotenv",
+            "scope": [
+                "source.dotenv",
+            ],
+            "settings": {
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "dotenv-comment",
+            "scope": [
+                "comment.line.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#00B140"
+            }
+        },
+        {
+            "name": "dotenv-variable",
+            "scope": [
+                "variable.key.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#5BC2E7"
+            }
+        },
+        {
+            "name": "dotenv-value",
+            "scope": [
+                "property.value.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "bold",
                 "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": "dotenv-keyword.operator",
+            "scope": [
+                "keyword.operator.assignment.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "gitignore-text",
+            "scope": [
+                "text.gitignore",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DDDAE8"
+            }
+        },
+        {
+            "name": "gitignore-comment",
+            "scope": [
+                "comment.gitignore",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#00B140"
             }
         },
     ],
@@ -244,8 +344,8 @@
         "editorHoverWidget.background": "#252526",
         "editorHoverWidget.border": "#454545",
         "editorHoverWidget.foreground": "#cccccc",
-        "editorIndentGuide.activeBackground": "#ffffff",
-        "editorIndentGuide.background": "#ffffff",
+        "editorIndentGuide.activeBackground1": "#ffffff",
+        "editorIndentGuide.background1": "#ffffff",
         "editorInfo.background": "#4490bf00",
         "editorInfo.border": "#75beff",
         "editorInfo.foreground": "#75beff00",
