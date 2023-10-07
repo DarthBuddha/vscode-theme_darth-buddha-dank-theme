@@ -3,28 +3,38 @@
 
 ## Change Log
 
-### **Version 1.1.3**
+### **Version 1.1.5** - **Mo-Oar Color! Stage 1**
 
-- **Minor fixes**
-  - **Added** more fixes to python
-  - **Added** Json - .json
+- **Added** .tree extension brown trunk and green leaves
 
-### **Version 1.1.2**
+- **Upgrade** python extension
+- **Upgrade** MarkDown
 
-- **Minor fixes**
-  - **Added** more fixes to python
+- **Change** Changed from dotenv to env extension
 
-### **Version 1.1.1**
+### **Version 1.1.4** - **Quick Fix**
 
-- **Major Release**
-  - **Improved documentation**
-  - **Added** Markdown - .md
+- **Minor Updates**
 
-### **Version 0.0.1**
+### **Version 1.1.3** - **Expand**
+
+- **Added** more updates to python
+- **Added** Json - .json
+
+### **Version 1.1.2** - **Python Expansion**
+
+- **Added** more updates to python
+
+### **Version 1.1.1** - **Improved documentation**
+
+- **Added** Markdown - .md
+
+### **Version 0.0.1** - **Initial Release**
 
 - **Initial Release**, it's here
-  - **Added** Python - .py
-  - **Added** Git - .gitignore
-  - **Added** Dotenv - .env
+
+- **Added** Python - .py
+- **Added** Git - .gitignore
+- **Added** Env - .env
 
 #### Darth Buddha's Dank Theme - [Darth Buddha on Github](https://github.com/DarthBuddha)
