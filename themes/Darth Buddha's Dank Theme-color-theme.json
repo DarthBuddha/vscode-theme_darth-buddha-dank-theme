@@ -1,6 +1,6 @@
 {
     "name": "Darth Buddha's Dank Theme",
-    "semanticHighlighting": false,
+    "semanticHighlighting": true,
     "semanticTokenColors": {
         "namespace": {
             "fontStyle": "italic bold",
@@ -105,6 +105,36 @@
             "scope": [
                 "constant.numeric.env",
                 "string.quoted.double.env",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": ".dotenv",
+            "scope": [
+                "property.value.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#C7C9C7"
+            }
+        },
+        {
+            "name": ".env",
+            "scope": [
+                "comment.line.dotenv",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#00B140"
+            }
+        },
+        {
+            "name": ".env",
+            "scope": [
+                "keyword.operator.assignment.dotenv",
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -685,7 +715,7 @@
     ],
     "colors": {
         "foreground": "#ffffff",
-        "focusBorder": "#007fd4",
+        "focusBorder": "#ffffff",
         "selection.background": "#256aa7",
         "scrollbar.shadow": "#000000",
         "activityBar.foreground": "#ffffff",
@@ -785,7 +815,7 @@
         "editorIndentGuide.activeBackground1": "#ffffff",
         "editorRuler.foreground": "#ffffff80",
         "editorBracketMatch.background": "#8c8c8c1a",
-        "editorBracketMatch.border": "#2cff0080",
+        "editorBracketMatch.border": "#2bff001f",
         "editor.foldBackground": "#7b867d4d",
         "editorOverviewRuler.background": "#25252500",
         "editorOverviewRuler.border": "#7f7f7f4d",
@@ -850,7 +880,7 @@
         "tab.inactiveBackground": "#0a0a0a00",
         "tab.inactiveForeground": "#ffffff80",
         "tab.hoverBorder": "#ffffff",
-        "scrollbarSlider.background": "#79797966",
+        "scrollbarSlider.background": "#ffffff66",
         "scrollbarSlider.hoverBackground": "#585858b3",
         "scrollbarSlider.activeBackground": "#bfbfbf66",
         "progressBar.background": "#a50000",
@@ -864,7 +894,7 @@
         "debugToolBar.border": "#474747",
         "notifications.foreground": "#cccccc",
         "notifications.background": "#252526",
-        "notificationToast.border": "#474747",
+        "notificationToast.border": "#ffffff",
         "notificationsErrorIcon.foreground": "#ff0000",
         "notificationsWarningIcon.foreground": "#cca700",
         "notificationsInfoIcon.foreground": "#75beff",
@@ -938,6 +968,6 @@
         "breadcrumb.activeSelectionForeground": "#e0e0e0",
         "editorGutter.commentRangeForeground": "#ffffff",
         "debugExceptionWidget.background": "#333333",
-        "debugExceptionWidget.border": "#474747"
+        "debugExceptionWidget.border": "#ffffff"
     }
 }

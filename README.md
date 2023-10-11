@@ -7,13 +7,15 @@ Pantone C - Color pallet
 
 Dark - High Contest - Dank
 
-## **Language Support**
+## **Language Highlighting**
 
-- **Env**  - **.env**
-- **Git** - **.gitignore**
-- **Json** - **.json**
-- **Python** - **.py**
-- **Trunk Tree** - **.tree**
+Magic Python is recommended
+
+- **.env** - **Env, Dotenv**
+- **.gitignore** - **Git**
+- **.json** - **Json**
+- **.py** - **Python**
+- **.tree** - **Trunk Tree**
 
 ***
 
@@ -21,8 +23,9 @@ Dark - High Contest - Dank
 
 Add some rulers
 
-```
+```python
 
+    "editor.renderWhitespace": "all",
     "editor.rulers": [
         {
             "column": 0,
@@ -37,6 +40,7 @@ Add some rulers
             "color": "#C8081550"
         }
     ],
+    "editor.showFoldingControls": "always",
 
 ```
 

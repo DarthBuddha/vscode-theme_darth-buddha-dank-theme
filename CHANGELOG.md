@@ -3,6 +3,16 @@
 
 ## Change Log
 
+### **Version 1.1.8** - **Minor adjustments**
+
+- **Added** put back in .dotenv highlighting
+
+### **Version 1.1.7** - **Quick Fix**
+
+- **Upgrade** Magic Python
+
+### **Version 1.1.6** - **Quick Fix**
+
 ### **Version 1.1.5** - **Mo-Oar Color! Stage 1**
 
 - **Added** .tree extension brown trunk and green leaves
