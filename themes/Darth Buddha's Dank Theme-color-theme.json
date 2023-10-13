@@ -4,7 +4,7 @@
     "semanticTokenColors": {
         "namespace": {
             "fontStyle": "italic bold",
-            "foreground": "#00AB84"
+            "foreground": "#00B08B"
         },
         "type": {
             "fontStyle": "bold",
@@ -206,11 +206,41 @@
         {
             "name": ".json",
             "scope": [
-                "string.quoted.double.json",
+                "constant.language.json.comments",
             ],
             "settings": {
-                "fontStyle": "italic bold",
-                "foreground": "#C7C9C7"
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
+            "name": ".json",
+            "scope": [
+                "punctuation.separator.dictionary.pair.json.comments",
+                "meta.structure.dictionary.json.comments",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": ".json",
+            "scope": [
+                "source.json.comments",
+            ],
+            "settings": {
+                "foreground": "#E5E1E6"
+            }
+        },
+        {
+            "name": ".json",
+            "scope": [
+                "constant.numeric.json.comments",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#64A70B"
             }
         },
         {
@@ -346,7 +376,7 @@
                 "source.python",
             ],
             "settings": {
-                "foreground": "#00C7B1"
+                "foreground": "#00B08B"
             }
         },
         {
@@ -402,7 +432,7 @@
             ],
             "settings": {
                 "fontStyle": "italic bold",
-                "foreground": "#00C7B1"
+                "foreground": "#00B08B"
             }
         },
         {
@@ -500,7 +530,7 @@
                 "meta.format.percent.python",
             ],
             "settings": {
-                "foreground": "#F0E87B"
+                "foreground": "#C5A900"
             }
         },
         {
@@ -516,7 +546,17 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#F0E87B"
+                "foreground": "#C16C18"
+            }
+        },
+        {
+            "name": " .py - Meta",
+            "scope": [
+                "meta.function-call.arguments.python",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FF8200"
             }
         },
         {
@@ -530,7 +570,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#F0E87B"
+                "foreground": "#FFC845"
             }
         },
         {

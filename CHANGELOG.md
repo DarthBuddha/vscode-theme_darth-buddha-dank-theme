@@ -3,6 +3,8 @@
 
 ## Change Log
 
+### **Version 1.1.9** - **Quick Fix**
+
 ### **Version 1.1.8** - **Minor adjustments**
 
 - **Added** put back in .dotenv highlighting

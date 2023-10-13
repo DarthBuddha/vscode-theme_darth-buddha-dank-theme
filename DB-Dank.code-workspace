@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"royaction.color-manager",
+			"redcmd.tmlanguage-syntax-highlighter",
+			"alefragnani.project-manager"
+		]
+	}
 }
