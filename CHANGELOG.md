@@ -3,6 +3,16 @@
 
 ## Change Log
 
+### **Version 1.1.12** - **New**
+
+- **Added** Dark Theme-Blue: New
+- **Added** Dark Theme-Green: New
+- **Added** Dark Theme-Red: - Renamed main theme
+
+### **Version 1.1.11** - **Quick Fix**
+
+### **Version 1.1.10** - **Quick Fix**
+
 ### **Version 1.1.9** - **Quick Fix**
 
 ### **Version 1.1.8** - **Minor adjustments**
@@ -28,7 +38,7 @@
 
 - **Minor Updates**
 
-### **Version 1.1.3** - **Expand**
+### **Version 1.1.3** - **New**
 
 - **Added** more updates to python
 - **Added** Json - .json

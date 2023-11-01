@@ -4,5 +4,7 @@
 *.vsix
 
 #Folders
-.DEV-BUDDHA/**
+.developer/
+.github/
+.vscode/
 node_modules

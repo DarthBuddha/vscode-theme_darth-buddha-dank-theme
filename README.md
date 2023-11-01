@@ -1,11 +1,15 @@
 
 # **Darth Buddha's Dank Theme**
 
-My personal Theme
+My personal Themes
 
 Pantone C - Color pallet
 
-Dark - High Contest - Dank
+**Dark** - High Contest - **Dank**
+
+- **Blue**
+- **Green**
+- **Red**
 
 ## **Language Highlighting**
 
@@ -16,8 +20,6 @@ Magic Python is recommended
 - **.json** - **Json**
 - **.py** - **Python**
 - **.tree** - **Trunk Tree**
-
-***
 
 ### **.vscode/settings.json**
 

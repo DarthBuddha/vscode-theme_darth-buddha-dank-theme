@@ -2,7 +2,7 @@
 	"name": "DB-Dank",
 	"displayName": "Darth Buddha's Dank Theme",
 	"description": "High Contrast Magic Python Theme",
-	"version": "1.1.9",
+	"version": "1.1.12",
 	"author": "DarthBuddha",
 	"publisher": "DarthBuddha",
 	"license": "MIT",
@@ -25,8 +25,23 @@
 		"dank",
 		"magic python"
 	],
-	"contributes": {
+		"contributes": {
 		"themes": [
+			{
+				"label": "Darth Buddha's Dank Theme: Blue",
+				"uiTheme": "hc-black",
+				"path": "./themes/Darth Buddha's Dank Theme-Blue.json"
+			},
+			{
+				"label": "Darth Buddha's Dank Theme: Green",
+				"uiTheme": "hc-black",
+				"path": "./themes/Darth Buddha's Dank Theme-Green.json"
+			},
+			{
+				"label": "Darth Buddha's Dank Theme: Red",
+				"uiTheme": "hc-black",
+				"path": "./themes/Darth Buddha's Dank Theme-Red.json"
+			}
 		]
 	},
 	"repository": {
