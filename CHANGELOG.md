@@ -3,6 +3,14 @@
 
 ## Change Log
 
+### **Version 1.1.14** - **New**
+
+- **Added** Added some token colors for nginx
+
+### **Version 1.1.13** - **New**
+
+- **Added** Start of HTML and CCS highlighting
+
 ### **Version 1.1.12** - **New**
 
 - **Added** Dark Theme-Blue: New

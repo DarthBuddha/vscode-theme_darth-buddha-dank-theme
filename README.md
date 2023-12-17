@@ -15,11 +15,12 @@ Pantone C - Color pallet
 
 Magic Python is recommended
 
-- **.env** - **Env, Dotenv**
-- **.gitignore** - **Git**
-- **.json** - **Json**
-- **.py** - **Python**
-- **.tree** - **Trunk Tree**
+- **.env - Env, Dotenv**
+- **.html - HTML**
+- **.gitignore - Git**
+- **.json - Json**
+- **.py - Python**
+- **.tree - Trunk Tree**
 
 ### **.vscode/settings.json**
 

@@ -77,13 +77,13 @@
         "event": {
             "fontStyle": "strikethrough",
             "foreground": "#E4002B"
-        },
+        }
     },
     "tokenColors": [
         {
             "name": ".env",
             "scope": [
-                "source.env",
+                "source.env"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -93,7 +93,7 @@
         {
             "name": ".env",
             "scope": [
-                "comment.line.number-sign.env",
+                "comment.line.number-sign.env"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -104,7 +104,7 @@
             "name": ".env",
             "scope": [
                 "constant.numeric.env",
-                "string.quoted.double.env",
+                "string.quoted.double.env"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -114,7 +114,7 @@
         {
             "name": ".dotenv",
             "scope": [
-                "property.value.dotenv",
+                "property.value.dotenv"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -124,7 +124,7 @@
         {
             "name": ".env",
             "scope": [
-                "comment.line.dotenv",
+                "comment.line.dotenv"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -134,7 +134,7 @@
         {
             "name": ".env",
             "scope": [
-                "keyword.operator.assignment.dotenv",
+                "keyword.operator.assignment.dotenv"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -144,7 +144,7 @@
         {
             "name": ".gitignore",
             "scope": [
-                "text.gitignore",
+                "text.gitignore"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -154,7 +154,7 @@
         {
             "name": ".gitignore",
             "scope": [
-                "comment.gitignore",
+                "comment.gitignore"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -165,7 +165,7 @@
             "name": ".json",
             "scope": [
                 "punctuation.support.type.property-name.begin.json",
-                "punctuation.support.type.property-name.end.json",
+                "punctuation.support.type.property-name.end.json"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -175,7 +175,7 @@
         {
             "name": ".json",
             "scope": [
-                "support.type.property-name.json",
+                "support.type.property-name.json"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -185,7 +185,7 @@
         {
             "name": ".json",
             "scope": [
-                "punctuation.separator.dictionary.key-value.json",
+                "punctuation.separator.dictionary.key-value.json"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -196,7 +196,7 @@
             "name": ".json",
             "scope": [
                 "punctuation.definition.string.begin.json",
-                "punctuation.definition.string.end.json",
+                "punctuation.definition.string.end.json"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -206,7 +206,7 @@
         {
             "name": ".json",
             "scope": [
-                "constant.language.json.comments",
+                "constant.language.json.comments"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -217,7 +217,7 @@
             "name": ".json",
             "scope": [
                 "punctuation.separator.dictionary.pair.json.comments",
-                "meta.structure.dictionary.json.comments",
+                "meta.structure.dictionary.json.comments"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -227,7 +227,7 @@
         {
             "name": ".json",
             "scope": [
-                "source.json.comments",
+                "source.json.comments"
             ],
             "settings": {
                 "foreground": "#E5E1E6"
@@ -236,7 +236,7 @@
         {
             "name": ".json",
             "scope": [
-                "constant.numeric.json.comments",
+                "constant.numeric.json.comments"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -250,7 +250,7 @@
                 "heading.2.markdown",
                 "heading.3.markdown",
                 "heading.4.markdown",
-                "heading.5.markdown",
+                "heading.5.markdown"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -260,7 +260,7 @@
         {
             "name": ".md",
             "scope": [
-                "punctuation.definition.heading.markdown",
+                "punctuation.definition.heading.markdown"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -270,7 +270,7 @@
         {
             "name": ".md",
             "scope": [
-                "punctuation.definition.list.begin.markdown",
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -280,7 +280,7 @@
         {
             "name": ".md",
             "scope": [
-                "meta.paragraph.markdown",
+                "meta.paragraph.markdown"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -290,7 +290,7 @@
         {
             "name": ".md",
             "scope": [
-                "markup.bold.markdown",
+                "markup.bold.markdown"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -300,7 +300,7 @@
         {
             "name": ".md",
             "scope": [
-                "punctuation.definition.bold.markdown",
+                "punctuation.definition.bold.markdown"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -311,7 +311,7 @@
             "name": ".md",
             "scope": [
                 "meta.link.inline.markdown",
-                "markup.underline.link.image.markdown",
+                "markup.underline.link.image.markdown"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -321,7 +321,7 @@
         {
             "name": ".md",
             "scope": [
-                "string.other.link.description.markdown",
+                "string.other.link.description.markdown"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -331,7 +331,7 @@
         {
             "name": ".md",
             "scope": [
-                "string.other.link.description.title.markdown",
+                "string.other.link.description.title.markdown"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -343,7 +343,7 @@
             "scope": [
                 "punctuation.definition.metadata.markdown",
                 "punctuation.definition.link.description.begin.markdown",
-                "punctuation.definition.link.description.end.markdown",
+                "punctuation.definition.link.description.end.markdown"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -353,7 +353,7 @@
         {
             "name": " .tree  Green",
             "scope": [
-                "source.tree",
+                "source.tree"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -363,7 +363,7 @@
         {
             "name": " .tree  Brown",
             "scope": [
-                "variable.trunk.tree",
+                "variable.trunk.tree"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -373,7 +373,7 @@
         {
             "name": "python.py ",
             "scope": [
-                "source.python",
+                "source.python"
             ],
             "settings": {
                 "foreground": "#00B08B"
@@ -388,7 +388,7 @@
                 "comment.typehint.ignore.notation.python",
                 "comment.typehint.punctuation.notation.python",
                 "comment.typehint.type.notation.python",
-                "comment.typehint.variable.notation.python",
+                "comment.typehint.variable.notation.python"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -412,7 +412,7 @@
                 "constant.numeric.python",
                 "constant.other.caps.python",
                 "constant.other.ellipsis.python",
-                "constant.other.set.regexp",
+                "constant.other.set.regexp"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -428,7 +428,7 @@
                 "entity.name.tag.named.backreference.regexp",
                 "entity.name.tag.named.group.regexp",
                 "entity.name.type.class.python",
-                "entity.other.inherited-class.python",
+                "entity.other.inherited-class.python"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -449,7 +449,7 @@
                 "invalid.illegal.name.python",
                 "invalid.illegal.newline.python",
                 "invalid.illegal.operator.python",
-                "invalid.illegal.prefix.python",
+                "invalid.illegal.prefix.python"
             ],
             "settings": {
                 "foreground": "#CD545B"
@@ -463,7 +463,6 @@
                 "keyword.control.import.python",
                 "keyword.illegal.name.python",
                 "keyword.operator.arithmetic.python",
-                // "keyword.operator.assignment.python",
                 "keyword.operator.bitwise.python",
                 "keyword.operator.comparison.python",
                 "keyword.operator.conditional.negative.regexp",
@@ -479,7 +478,7 @@
                 "keyword.operator.python",
                 "keyword.operator.quantifier.regexp",
                 "keyword.operator.unpacking.arguments.python",
-                "keyword.operator.unpacking.parameter.python",
+                "keyword.operator.unpacking.parameter.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -489,28 +488,7 @@
         {
             "name": " .py - Keyword",
             "scope": [
-                // "keyword.codetag.notation.python",
-                // "keyword.control.flow.python",
-                // "keyword.control.import.python",
-                // "keyword.illegal.name.python",
-                // "keyword.operator.arithmetic.python",
-                "keyword.operator.assignment.python",
-                // "keyword.operator.bitwise.python",
-                // "keyword.operator.comparison.python",
-                // "keyword.operator.conditional.negative.regexp",
-                // "keyword.operator.conditional.regexp",
-                // "keyword.operator.disjunction.regexp",
-                // "keyword.operator.logical.python",
-                // "keyword.operator.lookahead.negative.regexp",
-                // "keyword.operator.lookahead.regexp",
-                // "keyword.operator.lookbehind.negative.regexp",
-                // "keyword.operator.lookbehind.regexp",
-                // "keyword.operator.negation.regexp",
-                // "keyword.operator.positional.parameter.python",
-                // "keyword.operator.python",
-                // "keyword.operator.quantifier.regexp",
-                // "keyword.operator.unpacking.arguments.python",
-                // "keyword.operator.unpacking.parameter.python",
+                "keyword.operator.assignment.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -527,7 +505,7 @@
                 "meta.class.inheritance.python",
                 "meta.class.python",
                 "meta.format.brace.python",
-                "meta.format.percent.python",
+                "meta.format.percent.python"
             ],
             "settings": {
                 "foreground": "#C5A900"
@@ -542,7 +520,7 @@
                 "meta.lambda-function.python",
                 "meta.member.access.python",
                 "meta.named.regexp",
-                "meta.typehint.comment.python",
+                "meta.typehint.comment.python"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -552,7 +530,7 @@
         {
             "name": " .py - Meta",
             "scope": [
-                "meta.function-call.arguments.python",
+                "meta.function-call.arguments.python"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -566,7 +544,7 @@
                 "meta.function-call.python",
                 "meta.function.decorator.python",
                 "meta.function.parameters.python",
-                "meta.function.python",
+                "meta.function.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -577,7 +555,7 @@
             "name": " .py - punctuation",
             "scope": [
                 "punctuation.definition.string.begin.python",
-                "punctuation.definition.string.end.python",
+                "punctuation.definition.string.end.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -587,7 +565,7 @@
         {
             "name": " .py - punctuation",
             "scope": [
-                "punctuation.definition.comment.python",
+                "punctuation.definition.comment.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -641,7 +619,7 @@
                 "punctuation.separator.inheritance.python",
                 "punctuation.separator.parameters.python",
                 "punctuation.separator.period.python",
-                "punctuation.separator.slice.python",
+                "punctuation.separator.slice.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -660,7 +638,7 @@
                 "storage.type.function.python",
                 "storage.type.imaginary.number.python",
                 "storage.type.number.python",
-                "storage.type.string.python",
+                "storage.type.string.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -672,19 +650,12 @@
             "scope": [
                 "string.interpolated.python",
                 "string.quoted.binary.multi.python",
-                // "string.quoted.binary.single.python",
                 "string.quoted.docstring.multi.python",
                 "string.quoted.docstring.raw.multi.python",
-                // "string.quoted.docstring.raw.single.python",
-                // "string.quoted.docstring.single.python",
                 "string.quoted.multi.python",
                 "string.quoted.raw.binary.multi.python",
-                // "string.quoted.raw.binary.single.python",
                 "string.quoted.raw.multi.python",
-                // "string.quoted.raw.single.python",
-                // "string.quoted.single.python",
-                "string.regexp.quoted.multi.python",
-                // "string.regexp.quoted.single.python",
+                "string.regexp.quoted.multi.python"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -695,20 +666,13 @@
             "name": " .py - Docstrings",
             "scope": [
                 "string.interpolated.python",
-                // "string.quoted.binary.multi.python",
                 "string.quoted.binary.single.python",
-                // "string.quoted.docstring.multi.python",
-                // "string.quoted.docstring.raw.multi.python",
                 "string.quoted.docstring.raw.single.python",
                 "string.quoted.docstring.single.python",
-                // "string.quoted.multi.python",
-                // "string.quoted.raw.binary.multi.python",
                 "string.quoted.raw.binary.single.python",
-                // "string.quoted.raw.multi.python",
                 "string.quoted.raw.single.python",
                 "string.quoted.single.python",
-                // "string.regexp.quoted.multi.python",
-                "string.regexp.quoted.single.python",
+                "string.regexp.quoted.single.python"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -728,7 +692,7 @@
                 "support.type.exception.python",
                 "support.type.metaclass.python",
                 "support.type.python",
-                "support.variable.magic.python",
+                "support.variable.magic.python"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -745,13 +709,157 @@
                 "variable.parameter.function-call.python",
                 "variable.parameter.function.language.python",
                 "variable.parameter.function.language.special.cls.python",
-                "variable.parameter.function.language.special.self.python",
+                "variable.parameter.function.language.special.self.python"
             ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#5BC2E7"
             }
         },
+        {
+            "name": " html - ",
+            "scope": [
+                "text.html.derivative",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#C7C9C7"
+            }
+        },
+        {
+            "name": " html - ",
+            "scope": [
+                "punctuation.definition.string.begin.html",
+                "punctuation.definition.string.end.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": " html - ",
+            "scope": [
+                "string.quoted.double.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FDD086"
+            }
+        },
+        {
+            "name": " html - ",
+            "scope": [
+                "entity.name.tag.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AD1AAC"
+            }
+        },
+        {
+            "name": " html - ",
+            "scope": [
+                "entity.other.attribute-name.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
+            "name": " html - ",
+            "scope": [
+                "comment.block.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#64A70B"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "source.nginx"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E5E1E6"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#64A70B"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "constant.language.module.http.ssl"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "constant.language.module.http"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#00C7B1"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "constant.character.end"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DA291C"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "constant.language.module.core"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#5BC2E7"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "variable",
+                "keyword.control.nginx"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
+            "name": " nginx - ",
+            "scope": [
+                "constant.language.module.events"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AD1AAC"
+            }
+        }
     ],
     "colors": {
         "foreground": "#ffffff",
