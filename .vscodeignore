@@ -1,10 +1,12 @@
 # DARTH-BUDDHA-VSCODE-THEME
 
 # Files
+.gitattributes
 .gitignore
 
 # Folders
-.DEV-BUDDHA/**
-.src/**
+.developer/**
+.git/**
+.github/**
 .vscode/**
-.vscode-test/**
+src/**

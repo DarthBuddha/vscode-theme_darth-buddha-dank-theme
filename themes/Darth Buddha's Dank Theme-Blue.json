@@ -82,9 +82,7 @@
     "tokenColors": [
         {
             "name": ".env",
-            "scope": [
-                "source.env"
-            ],
+            "scope": ["source.env"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C7C9C7"
@@ -92,9 +90,7 @@
         },
         {
             "name": ".env",
-            "scope": [
-                "comment.line.number-sign.env"
-            ],
+            "scope": ["comment.line.number-sign.env"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#00B140"
@@ -102,10 +98,7 @@
         },
         {
             "name": ".env",
-            "scope": [
-                "constant.numeric.env",
-                "string.quoted.double.env"
-            ],
+            "scope": ["constant.numeric.env", "string.quoted.double.env"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#E4002B"
@@ -113,9 +106,7 @@
         },
         {
             "name": ".dotenv",
-            "scope": [
-                "property.value.dotenv"
-            ],
+            "scope": ["property.value.dotenv"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C7C9C7"
@@ -123,9 +114,7 @@
         },
         {
             "name": ".env",
-            "scope": [
-                "comment.line.dotenv"
-            ],
+            "scope": ["comment.line.dotenv"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#00B140"
@@ -133,9 +122,7 @@
         },
         {
             "name": ".env",
-            "scope": [
-                "keyword.operator.assignment.dotenv"
-            ],
+            "scope": ["keyword.operator.assignment.dotenv"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#E4002B"
@@ -143,9 +130,7 @@
         },
         {
             "name": ".gitignore",
-            "scope": [
-                "text.gitignore"
-            ],
+            "scope": ["text.gitignore"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C7C9C7"
@@ -153,9 +138,7 @@
         },
         {
             "name": ".gitignore",
-            "scope": [
-                "comment.gitignore"
-            ],
+            "scope": ["comment.gitignore"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#00B140"
@@ -163,7 +146,16 @@
         },
         {
             "name": ".json",
+            "scope": ["source.json", "meta.structure.dictionary.value.json"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#A2ACAB"
+            }
+        },
+        {
+            "name": ".json",
             "scope": [
+                "punctuation.separator.dictionary.pair.json",
                 "punctuation.support.type.property-name.begin.json",
                 "punctuation.support.type.property-name.end.json"
             ],
@@ -174,9 +166,7 @@
         },
         {
             "name": ".json",
-            "scope": [
-                "support.type.property-name.json"
-            ],
+            "scope": ["support.type.property-name.json"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FDD086"
@@ -184,9 +174,7 @@
         },
         {
             "name": ".json",
-            "scope": [
-                "punctuation.separator.dictionary.key-value.json"
-            ],
+            "scope": ["punctuation.separator.dictionary.key-value.json"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#E4002B"
@@ -205,9 +193,7 @@
         },
         {
             "name": ".json",
-            "scope": [
-                "constant.language.json.comments"
-            ],
+            "scope": ["constant.language.json.comments"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#005EB8"
@@ -226,18 +212,14 @@
         },
         {
             "name": ".json",
-            "scope": [
-                "source.json.comments"
-            ],
+            "scope": ["source.json.comments"],
             "settings": {
                 "foreground": "#E5E1E6"
             }
         },
         {
             "name": ".json",
-            "scope": [
-                "constant.numeric.json.comments"
-            ],
+            "scope": ["constant.numeric.json.comments"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#64A70B"
@@ -259,9 +241,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "punctuation.definition.heading.markdown"
-            ],
+            "scope": ["punctuation.definition.heading.markdown"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#00B140"
@@ -269,9 +249,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "punctuation.definition.list.begin.markdown"
-            ],
+            "scope": ["punctuation.definition.list.begin.markdown"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#E4002B"
@@ -279,9 +257,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "meta.paragraph.markdown"
-            ],
+            "scope": ["meta.paragraph.markdown"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#C7C9C7"
@@ -289,9 +265,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "markup.bold.markdown"
-            ],
+            "scope": ["markup.bold.markdown"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C7C9C7"
@@ -299,9 +273,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "punctuation.definition.bold.markdown"
-            ],
+            "scope": ["punctuation.definition.bold.markdown"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#963821"
@@ -320,9 +292,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "string.other.link.description.markdown"
-            ],
+            "scope": ["string.other.link.description.markdown"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#005EB8"
@@ -330,9 +300,7 @@
         },
         {
             "name": ".md",
-            "scope": [
-                "string.other.link.description.title.markdown"
-            ],
+            "scope": ["string.other.link.description.title.markdown"],
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#FDD086"
@@ -352,9 +320,7 @@
         },
         {
             "name": " .tree  Green",
-            "scope": [
-                "source.tree"
-            ],
+            "scope": ["source.tree"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#64A70B"
@@ -362,9 +328,7 @@
         },
         {
             "name": " .tree  Brown",
-            "scope": [
-                "variable.trunk.tree"
-            ],
+            "scope": ["variable.trunk.tree"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#B36924"
@@ -372,9 +336,7 @@
         },
         {
             "name": "python.py ",
-            "scope": [
-                "source.python"
-            ],
+            "scope": ["source.python"],
             "settings": {
                 "foreground": "#00B08B"
             }
@@ -487,9 +449,7 @@
         },
         {
             "name": " .py - Keyword",
-            "scope": [
-                "keyword.operator.assignment.python"
-            ],
+            "scope": ["keyword.operator.assignment.python"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#DA291C"
@@ -529,9 +489,7 @@
         },
         {
             "name": " .py - Meta",
-            "scope": [
-                "meta.function-call.arguments.python"
-            ],
+            "scope": ["meta.function-call.arguments.python"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FF8200"
@@ -564,9 +522,7 @@
         },
         {
             "name": " .py - punctuation",
-            "scope": [
-                "punctuation.definition.comment.python"
-            ],
+            "scope": ["punctuation.definition.comment.python"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#64A70B"
@@ -741,9 +697,7 @@
         },
         {
             "name": " html - ",
-            "scope": [
-                "string.quoted.double.html"
-            ],
+            "scope": ["string.quoted.double.html"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#FDD086"
@@ -751,9 +705,7 @@
         },
         {
             "name": " html - ",
-            "scope": [
-                "entity.name.tag.html"
-            ],
+            "scope": ["entity.name.tag.html"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#AD1AAC"
@@ -761,9 +713,7 @@
         },
         {
             "name": " html - ",
-            "scope": [
-                "entity.other.attribute-name.html"
-            ],
+            "scope": ["entity.other.attribute-name.html"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#005EB8"
@@ -771,9 +721,7 @@
         },
         {
             "name": " html - ",
-            "scope": [
-                "comment.block.html"
-            ],
+            "scope": ["comment.block.html"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#64A70B"
@@ -781,9 +729,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "source.nginx"
-            ],
+            "scope": ["source.nginx"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#E5E1E6"
@@ -791,9 +737,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "comment"
-            ],
+            "scope": ["comment"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#64A70B"
@@ -801,9 +745,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "constant.language.module.http.ssl"
-            ],
+            "scope": ["constant.language.module.http.ssl"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#FF8F1C"
@@ -811,9 +753,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "constant.language.module.http"
-            ],
+            "scope": ["constant.language.module.http"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#00C7B1"
@@ -821,9 +761,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "constant.character.end"
-            ],
+            "scope": ["constant.character.end"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#DA291C"
@@ -831,9 +769,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "constant.language.module.core"
-            ],
+            "scope": ["constant.language.module.core"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#5BC2E7"
@@ -841,10 +777,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "variable",
-                "keyword.control.nginx"
-            ],
+            "scope": ["variable", "keyword.control.nginx"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#005EB8"
@@ -852,9 +785,7 @@
         },
         {
             "name": " nginx - ",
-            "scope": [
-                "constant.language.module.events"
-            ],
+            "scope": ["constant.language.module.events"],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#AD1AAC"
