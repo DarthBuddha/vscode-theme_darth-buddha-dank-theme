@@ -145,6 +145,72 @@
             }
         },
         {
+            "name": ".js - JavaScript",
+            "scope": ["source.js"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#A2ACAB"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": [
+                "keyword.control.import.js",
+                "keyword.control.as.js",
+                "keyword.control.from.js",
+                "keyword.control.loop.js",
+                "keyword.control.conditional.js",
+                "keyword.operator.comparison.js"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AD1AAC"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": ["storage.type.js"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#005EB8"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": ["entity.name.function.js"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FDD086"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": [
+                "punctuation.terminator.statement.js",
+                "string.quoted.double.js"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF8F1C"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": ["keyword.operator.assignment.js"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E4002B"
+            }
+        },
+        {
+            "name": ".js",
+            "scope": ["constant.numeric.decimal.js"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#5BC2E7"
+            }
+        },
+        {
             "name": ".json",
             "scope": ["source.json", "meta.structure.dictionary.value.json"],
             "settings": {

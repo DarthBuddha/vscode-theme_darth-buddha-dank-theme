@@ -1,4 +1,3 @@
-
 # **Darth Buddha's Dank Theme**
 
 My personal Themes
@@ -7,26 +6,28 @@ Pantone C - Color pallet
 
 **Dark** - High Contest - **Dank**
 
-- **Blue**
-- **Green**
-- **Red**
+-   **Blue**
+-   **Green**
+-   **Red**
 
 ## **Language Highlighting**
 
 Magic Python is recommended
 
-- **.env - Env, Dotenv**
-- **.html - HTML**
-- **.gitignore - Git**
-- **.json - Json**
-- **.py - Python**
-- **.tree - Trunk Tree**
+-   **.env - Env, Dotenv**
+-   **.html - HTML**
+-   **.gitignore - Git**
+-   **.js - JavaScript**
+-   **.json - Json**
+-   **.nginx - Nginx**
+-   **.py - Python**
+-   **.tree - Trunk Tree**
 
 ### **.vscode/settings.json**
 
 Add some rulers
 
-```python
+```json
 
     "editor.renderWhitespace": "all",
     "editor.rulers": [
