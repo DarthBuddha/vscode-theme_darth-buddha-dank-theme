@@ -6,6 +6,23 @@
         "fstring",
         "metaclass",
         "Pantone",
+        "readwrite",
         "typehint"
-    ]
+    ],
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        {
+            "column": 0,
+            "color": "#F0F8FF20"
+        },
+        {
+            "column": 72,
+            "color": "#F0F8FF20"
+        },
+        {
+            "column": 79,
+            "color": "#C8081550"
+        }
+    ],
+    "editor.showFoldingControls": "always"
 }

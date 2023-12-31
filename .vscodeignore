@@ -8,5 +8,6 @@
 .developer/**
 .git/**
 .github/**
+.venv/**
 .vscode/**
 src/**
