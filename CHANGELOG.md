@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.1.17** - **New**
+
+- **Added** Added some token colors for .rs
+
 ### **Version 1.1.16**
 
 - **Backend** re-organized scopes by color to try to keep color pallet between languages similar.

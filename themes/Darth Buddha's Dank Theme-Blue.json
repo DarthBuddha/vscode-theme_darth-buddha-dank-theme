@@ -1,6 +1,6 @@
 {
     "name": "Darth Buddha's Dank Theme",
-    "semanticHighlighting": true,
+    "semanticHighlighting": false,
     "semanticTokenColors": {
         "namespace": {
             "fontStyle": "italic bold",
@@ -114,7 +114,8 @@
                 "storage.type.string.python",
                 "entity.other.attribute-name.html",
                 "variable",
-                "keyword.control.nginx"
+                "keyword.control.nginx",
+                "storage.type.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -241,7 +242,8 @@
                 "text.html.derivative",
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.end.html",
-                "source.nginx"
+                "source.nginx",
+                "source.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -335,7 +337,9 @@
                 "support.type.metaclass.python",
                 "support.type.python",
                 "support.variable.magic.python",
-                "constant.language.module.http"
+                "constant.language.module.http",
+                "entity.name.namespace.rust",
+                "meta.function.call.rust"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -363,7 +367,10 @@
                 "punctuation.definition.string.end.python",
                 "punctuation.definition.string.begin.html",
                 "punctuation.definition.string.end.html",
-                "constant.language.module.http.ssl"
+                "constant.language.module.http.ssl",
+                "entity.name.function.macro.rust",
+                "punctuation.brackets.attribute.rust",
+                "punctuation.definition.attribute.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -417,7 +424,9 @@
                 "keyword.operator.unpacking.arguments.python",
                 "keyword.operator.unpacking.parameter.python",
                 "entity.name.tag.html",
-                "constant.language.module.events"
+                "constant.language.module.events",
+                "keyword.other.fn.rust",
+                "keyword.operator.assignment.equal.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -474,7 +483,8 @@
                 "string.quoted.raw.binary.single.python",
                 "string.quoted.raw.single.python",
                 "string.quoted.single.python",
-                "string.regexp.quoted.single.python"
+                "string.regexp.quoted.single.python",
+                "string.quoted.double.rust"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -491,7 +501,8 @@
                 "meta.class.inheritance.python",
                 "meta.class.python",
                 "meta.format.brace.python",
-                "meta.format.percent.python"
+                "meta.format.percent.python",
+                "meta.attribute.rust"
             ],
             "settings": {
                 "foreground": "#C5A900"
@@ -502,7 +513,8 @@
             "scope": [
                 "entity.name.function.js",
                 "variable.other.property.js",
-                "string.quoted.double.html"
+                "string.quoted.double.html",
+                "entity.name.function.rust"
             ],
             "settings": {
                 "fontStyle": "bold",

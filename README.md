@@ -21,6 +21,7 @@ Magic Python is recommended
 -   **.json - Json**
 -   **.nginx - Nginx**
 -   **.py - Python**
+-   **.rs - Rust**
 -   **.tree - Trunk Tree**
 
 ### **.vscode/settings.json**
