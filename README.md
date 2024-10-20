@@ -6,23 +6,25 @@ Pantone C - Color pallet
 
 **Dark** - High Contest - **Dank**
 
--   **Blue**
--   **Green**
--   **Red**
+- **Blue**
+- **Green**
+- **Red**
 
 ## **Language Highlighting**
 
 Magic Python is recommended
 
--   **.env - Env, Dotenv**
--   **.html - HTML**
--   **.gitignore - Git**
--   **.js - JavaScript**
--   **.json - Json**
--   **.nginx - Nginx**
--   **.py - Python**
--   **.rs - Rust**
--   **.tree - Trunk Tree**
+- **.env - Env, Dotenv**
+- **.html - HTML**
+- **.css - Css**
+- **.gitignore - Git**
+- **.js - JavaScript**
+- **.json - Json**
+- **.nginx - Nginx**
+- **.py - Python**
+- **.rs - Rust**
+- **.tree - Trunk Tree**
+- **.ts - Typescript**
 
 ### **.vscode/settings.json**
 

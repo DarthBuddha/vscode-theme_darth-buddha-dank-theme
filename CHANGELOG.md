@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.1.18** - **New**
+
+- **Added** Added some token colors for .tsx, .css
+
 ### **Version 1.1.17** - **New**
 
 - **Added** Added some token colors for .rs

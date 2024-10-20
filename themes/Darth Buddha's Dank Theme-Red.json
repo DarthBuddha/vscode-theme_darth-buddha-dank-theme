@@ -115,7 +115,15 @@
                 "entity.other.attribute-name.html",
                 "variable",
                 "keyword.control.nginx",
-                "storage.type.rust"
+                "storage.type.rust",
+                "storage.type.function.tsx",
+                "storage.type.tsx",
+                "storage.modifier.async.tsx",
+                "keyword.control.export.tsx",
+                "keyword.control.default.tsx",
+                "keyword.control.from.tsx",
+                "keyword.control.import.tsx",
+                "keyword.control.at-rule.media.css"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -141,7 +149,8 @@
                 "variable.parameter.function-call.python",
                 "variable.parameter.function.language.python",
                 "variable.parameter.function.language.special.cls.python",
-                "variable.parameter.function.language.special.self.python"
+                "variable.parameter.function.language.special.self.python",
+                "constant.numeric.css"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -243,7 +252,11 @@
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.end.html",
                 "source.nginx",
-                "source.rust"
+                "source.rust",
+                "string.quoted.double.tsx",
+                "punctuation.terminator.statement.tsx",
+                "source.tsx",
+                "source.css"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -264,7 +277,8 @@
                 "string.quoted.multi.python",
                 "string.quoted.raw.binary.multi.python",
                 "string.quoted.raw.multi.python",
-                "string.regexp.quoted.multi.python"
+                "string.regexp.quoted.multi.python",
+                "punctuation.definition.block.ts"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -339,7 +353,13 @@
                 "support.variable.magic.python",
                 "constant.language.module.http",
                 "entity.name.namespace.rust",
-                "meta.function.call.rust"
+                "meta.function.call.rust",
+                "entity.name.function.tsx",
+                "entity.name.tag.tsx",
+                "entity.other.attribute-name.tsx",
+                "entity.other.attribute-name.class.css",
+                "support.type.property-name.css",
+                "support.type.property-name.toml"
             ],
             "settings": {
                 "fontStyle": "italic bold",
@@ -370,7 +390,19 @@
                 "constant.language.module.http.ssl",
                 "entity.name.function.macro.rust",
                 "punctuation.brackets.attribute.rust",
-                "punctuation.definition.attribute.rust"
+                "punctuation.definition.attribute.rust",
+                "punctuation.definition.tag.end.tsx",
+                "punctuation.definition.tag.begin.tsx",
+                "punctuation.terminator.statement.tsx",
+                "punctuation.definition.string.begin.tsx",
+                "punctuation.definition.string.end.tsx",
+                "punctuation.definition.entity.css",
+                "punctuation.separator.key-value.css",
+                "punctuation.terminator.rule.css",
+                "punctuation.section.property-list.begin.bracket.curly.css",
+                "punctuation.definition.table.toml",
+                "punctuation.definition.keyword.css",
+                "punctuation.definition.constant.css"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -387,7 +419,8 @@
                 "meta.member.access.python",
                 "meta.named.regexp",
                 "meta.typehint.comment.python",
-                "meta.function-call.arguments.python"
+                "meta.function-call.arguments.python",
+                "meta.at-rule.media.header.css"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -426,7 +459,11 @@
                 "entity.name.tag.html",
                 "constant.language.module.events",
                 "keyword.other.fn.rust",
-                "keyword.operator.assignment.equal.rust"
+                "keyword.operator.assignment.equal.rust",
+                "keyword.control.import.tsx",
+                "keyword.control.flow.tsx",
+                "keyword.operator.assignment.tsx",
+                "keyword.other.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -451,7 +488,8 @@
                 "invalid.illegal.operator.python",
                 "invalid.illegal.prefix.python",
                 "keyword.operator.assignment.python",
-                "constant.character.end"
+                "constant.character.end",
+                "keyword.operator.arrow.skinny.rust"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -484,7 +522,10 @@
                 "string.quoted.raw.single.python",
                 "string.quoted.single.python",
                 "string.regexp.quoted.single.python",
-                "string.quoted.double.rust"
+                "string.quoted.double.rust",
+                "string.quoted.double.tsx",
+                "support.type.property-name.table.toml",
+                "string.quoted.single.basic.line.toml"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -514,7 +555,10 @@
                 "entity.name.function.js",
                 "variable.other.property.js",
                 "string.quoted.double.html",
-                "entity.name.function.rust"
+                "entity.name.function.rust",
+                "entity.name.type.rust",
+                "entity.other.attribute-name.pseudo-class.css",
+                "entity.name.tag.css"
             ],
             "settings": {
                 "fontStyle": "bold",
