@@ -2,6 +2,11 @@
 
 ## Change Log
 
+### **Version 1.1.19**
+
+- **Update** Added more syntax for type script and rust
+- **Update** VSCE
+
 ### **Version 1.1.18** - **New**
 
 - **Added** Added some token colors for .tsx, .css
