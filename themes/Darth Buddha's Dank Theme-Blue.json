@@ -1,6 +1,6 @@
 {
   "name": "Darth Buddha's Dank Theme",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "namespace": {
       "fontStyle": "italic bold",
@@ -132,7 +132,9 @@
     },
     {
       "name": "blue-dark_italic",
-      "scope": ["string.other.link.description.markdown"],
+      "scope": [
+        "string.other.link.description.markdown"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#298FC2"
@@ -174,7 +176,8 @@
       "name": "blue-light_italic-bold",
       "scope": [
         "meta.link.inline.markdown",
-        "markup.underline.link.image.markdown"
+        "markup.underline.link.image.markdown",
+        "string.quoted.single.tsx"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -183,7 +186,9 @@
     },
     {
       "name": "brown_bold",
-      "scope": ["variable.trunk.tree"],
+      "scope": [
+        "variable.trunk.tree"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#B36924"

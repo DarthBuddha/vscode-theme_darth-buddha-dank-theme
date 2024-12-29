@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.1.20**
+
+- **Update** Added more syntax for type script and rust
+
 ### **Version 1.1.19**
 
 - **Update** Added more syntax for type script and rust
