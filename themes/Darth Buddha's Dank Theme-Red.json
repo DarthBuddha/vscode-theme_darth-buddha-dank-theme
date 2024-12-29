@@ -26,7 +26,6 @@
       "foreground": "#00AB84"
     },
     "interface": {
-      "fontStyle": "strikethrough",
       "foreground": "#E4002B"
     },
     "enum": {
@@ -44,7 +43,6 @@
       "foreground": "#F0E87B"
     },
     "macro": {
-      "fontStyle": "strikethrough",
       "foreground": "#E4002B"
     },
     "variable": {
@@ -75,7 +73,6 @@
       "foreground": "#5BC2E7"
     },
     "event": {
-      "fontStyle": "strikethrough",
       "foreground": "#E4002B"
     }
   },
