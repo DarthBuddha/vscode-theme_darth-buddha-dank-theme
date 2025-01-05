@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.1.22**
+
+- **Update** added more js to match jsx, minor changes.
+
 ### **Version 1.1.21**
 
 - **Update** Adjusted semanticTokenColors

@@ -120,7 +120,10 @@
         "keyword.control.default.tsx",
         "keyword.control.from.tsx",
         "keyword.control.import.tsx",
-        "keyword.control.at-rule.media.css"
+        "keyword.control.at-rule.media.css",
+        "storage.type.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -173,8 +176,7 @@
       "name": "blue-light_italic-bold",
       "scope": [
         "meta.link.inline.markdown",
-        "markup.underline.link.image.markdown",
-        "string.quoted.single.tsx"
+        "markup.underline.link.image.markdown"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -281,7 +283,9 @@
         "string.quoted.raw.binary.multi.python",
         "string.quoted.raw.multi.python",
         "string.regexp.quoted.multi.python",
-        "punctuation.definition.block.ts"
+        "punctuation.definition.block.ts",
+        "string.quoted.single.tsx",
+        "string.quoted.single.ts"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -447,9 +451,6 @@
         "keyword.illegal.name.python",
         "keyword.operator.arithmetic.python",
         "keyword.operator.bitwise.python",
-        "keyword.operator.comparison.python",
-        "keyword.operator.conditional.negative.regexp",
-        "keyword.operator.conditional.regexp",
         "keyword.operator.disjunction.regexp",
         "keyword.operator.logical.python",
         "keyword.operator.lookahead.negative.regexp",
@@ -481,6 +482,20 @@
       }
     },
     {
+      "name": "purple_italic_bold",
+      "scope": [
+        "keyword.operator.comparison.python",
+        "keyword.operator.conditional.negative.regexp",
+        "keyword.operator.conditional.regexp",
+        "keyword.control.conditional.ts",
+        "keyword.control.conditional.tsx"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#AD1AAC"
+      }
+    },
+    {
       "name": "red_bold",
       "scope": [
         "keyword.operator.assignment.js",
@@ -499,7 +514,9 @@
         "invalid.illegal.prefix.python",
         "keyword.operator.assignment.python",
         "constant.character.end",
-        "keyword.operator.arrow.skinny.rust"
+        "keyword.operator.arrow.skinny.rust",
+        "support.type.primitive.tsx",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "fontStyle": "bold",
