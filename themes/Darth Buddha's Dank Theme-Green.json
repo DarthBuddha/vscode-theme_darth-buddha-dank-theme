@@ -11,11 +11,11 @@
       "foreground": "#00AB84"
     },
     "type.defaultLibrary": {
-      "fontStyle": "strikethrough",
+      "fontStyle": "bold",
       "foreground": "#E4002B"
     },
     "struct": {
-      "foreground": "#00AB84"
+      "foreground": "#4682b4"
     },
     "class": {
       "fontStyle": "bold",
@@ -30,7 +30,7 @@
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#00AB84"
+      "foreground": "#d87093"
     },
     "function": {
       "foreground": "#F0E87B"
@@ -70,7 +70,7 @@
     },
     "enumMember": {
       "fontStyle": "italic",
-      "foreground": "#5BC2E7"
+      "foreground": "#ffb6c1"
     },
     "event": {
       "foreground": "#E4002B"
@@ -412,7 +412,10 @@
         "punctuation.section.property-list.begin.bracket.curly.css",
         "punctuation.definition.table.toml",
         "punctuation.definition.keyword.css",
-        "punctuation.definition.constant.css"
+        "punctuation.definition.constant.css",
+        "punctuation.semi.rust",
+        "punctuation.comma.rust",
+        "keyword.operator.namespace.rust"
       ],
       "settings": {
         "fontStyle": "bold",
