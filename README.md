@@ -20,6 +20,7 @@ Magic Python is recommended
 - **.gitignore - Git**
 - **.js - JavaScript**
 - **.json - Json**
+- **.json5 - Json5**
 - **.nginx - Nginx**
 - **.py - Python**
 - **.rs - Rust**

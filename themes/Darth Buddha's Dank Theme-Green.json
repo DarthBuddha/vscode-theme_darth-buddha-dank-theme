@@ -123,7 +123,9 @@
         "keyword.control.at-rule.media.css",
         "storage.type.ts",
         "storage.type.function.arrow.tsx",
-        "storage.type.function.arrow.ts"
+        "storage.type.function.arrow.ts",
+        "constant.language.json5",
+        "constant.dec.numeric.json5"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -165,6 +167,8 @@
       "scope": [
         "punctuation.definition.string.begin.json",
         "punctuation.definition.string.end.json",
+        "punctuation.definition.string.begin.json5",
+        "punctuation.definition.string.end.json5",
         "constant.language.module.core"
       ],
       "settings": {
@@ -200,7 +204,6 @@
         "source.js",
         "property.value.dotenv",
         "text.gitignore",
-        "punctuation.separator.dictionary.pair.json.comments",
         "meta.structure.dictionary.json.comments",
         "heading.1.markdown",
         "heading.2.markdown",
@@ -285,7 +288,8 @@
         "string.regexp.quoted.multi.python",
         "punctuation.definition.block.ts",
         "string.quoted.single.tsx",
-        "string.quoted.single.ts"
+        "string.quoted.single.ts",
+        "meta.structure.dictionary.value.json5"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -415,7 +419,8 @@
         "punctuation.definition.constant.css",
         "punctuation.semi.rust",
         "punctuation.comma.rust",
-        "keyword.operator.namespace.rust"
+        "punctuation.separator.dictionary.pair.json5",
+        "punctuation.separator.dictionary.pair.json.comments"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -477,7 +482,8 @@
         "keyword.control.import.ts",
         "keyword.control.export.ts",
         "keyword.control.from.ts",
-        "keyword.operator.borrow.and.rust"
+        "keyword.operator.borrow.and.rust",
+        "keyword.operator.namespace.rust"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -519,7 +525,8 @@
         "constant.character.end",
         "keyword.operator.arrow.skinny.rust",
         "support.type.primitive.tsx",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "punctuation.separator.dictionary.key-value.json5"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -555,7 +562,8 @@
         "string.quoted.double.rust",
         "string.quoted.double.tsx",
         "support.type.property-name.table.toml",
-        "string.quoted.single.basic.line.toml"
+        "string.quoted.single.basic.line.toml",
+        "meta.structure.dictionary.json5"
       ],
       "settings": {
         "fontStyle": "italic",
