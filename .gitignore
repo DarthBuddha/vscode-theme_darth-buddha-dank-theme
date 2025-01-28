@@ -5,6 +5,7 @@
 
 #Folders
 .developer/**
+.temp/**
 .github/**
 .venv/**
 .vscode/**

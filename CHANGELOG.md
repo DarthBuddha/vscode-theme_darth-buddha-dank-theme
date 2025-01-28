@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.1.25**
+
+- **Update** minor changes
+
 ### **Version 1.1.24**
 
 - **Update** JSON5 support

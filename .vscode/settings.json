@@ -9,7 +9,7 @@
         "readwrite",
         "typehint"
     ],
-    "editor.renderWhitespace": "all",
+    // "editor.renderWhitespace": "all",
     "editor.rulers": [
         {
             "column": 0,

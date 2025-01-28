@@ -1,52 +1,60 @@
 {
   "name": "DB-Dank",
-  "displayName": "Darth Buddha's Dank Theme",
-  "description": "High Contrast Magic Python Theme",
-  "version": "1.1.24",
-  "author": "DarthBuddha",
+  "displayName": "Darth Buddha's - Dank Theme",
+  "description": "High Contrast Dank Theme",
+  "version": "1.1.25",
   "publisher": "DarthBuddha",
-  "license": "MIT",
+  "preview": false,
   "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#1b1f23",
-    "theme": "dark"
+  "readme": "README.md",
+  "author": {
+    "name": "Lucas T Marshall"
   },
+  "license": "SEE LICENSE IN LICENSE.txt",
   "engines": {
     "vscode": "^1.82.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "python",
-    "high contrast",
-    "buddha",
-    "dank",
-    "magic python"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Darth Buddha's Dank Theme: Blue",
-        "uiTheme": "hc-black",
-        "path": "./themes/Darth Buddha's Dank Theme-Blue.json"
-      },
-      {
-        "label": "Darth Buddha's Dank Theme: Green",
-        "uiTheme": "hc-black",
-        "path": "./themes/Darth Buddha's Dank Theme-Green.json"
-      },
-      {
-        "label": "Darth Buddha's Dank Theme: Red",
-        "uiTheme": "hc-black",
-        "path": "./themes/Darth Buddha's Dank Theme-Red.json"
-      }
-    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/DarthBuddha/vscode-theme_darth-buddha-dank-theme"
+  },
+  "homepage": "https://github.com/DarthBuddha/vscode-theme_darth-buddha-dank-theme",
+  "keywords": [
+    "theme",
+    "high contrast",
+    "dank",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Dank Theme: Blue",
+        "label": "Darth Buddha's Dank Theme: Blue",
+        "uiTheme": "hc-black",
+        "path": "./src/themes/theme_blue.json"
+      },
+      {
+        "id": "Dank Theme: Green",
+        "label": "Darth Buddha's Dank Theme: Green",
+        "uiTheme": "hc-black",
+        "path": "./src/themes/theme_green.json"
+      },
+      {
+        "id": "Dank Theme: Red",
+        "label": "Darth Buddha's Dank Theme: Red",
+        "uiTheme": "hc-black",
+        "path": "./src/themes/theme_red.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#1b1f23",
+    "theme": "dark"
   },
   "devDependencies": {
     "@vscode/vsce": "3.2.1"
