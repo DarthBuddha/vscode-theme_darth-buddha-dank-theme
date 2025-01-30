@@ -24,5 +24,14 @@
             "color": "#C8081550"
         }
     ],
-    "editor.showFoldingControls": "always"
+    "editor.showFoldingControls": "always",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "typescript.suggest.enabled": true,
+    "javascript.suggest.enabled": true,
+    "editor.parameterHints.enabled": true
 }

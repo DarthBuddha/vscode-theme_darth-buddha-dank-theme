@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.2.0**
+
+- **Update** Tauri React Typescript optamizations
+
 ### **Version 1.1.25**
 
 - **Update** minor changes
