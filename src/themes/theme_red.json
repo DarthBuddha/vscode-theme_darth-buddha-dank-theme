@@ -260,12 +260,12 @@
     "debugExceptionWidget.border": "#ffffff"
   },
   "semanticTokenColors": {
-    "comment": {
-      "foreground": "#E4002B"
-    },
-    "comment.documentation": {
-      "foreground": "#00B140"
-    },
+    // "comment": {
+    //   "foreground": "#00B140"
+    // },
+    // "comment.documentation": {
+    //   "foreground": "#00B140"
+    // },
     "namespace": {
       "foreground": "#00B08B"
     },
@@ -434,7 +434,7 @@
     "parenthesis": {
       "fontStyle": "bold",
       "foreground": "#dc6e00"
-    },
+    }
   },
   "tokenColors": [
     {
@@ -463,7 +463,7 @@
     {
       "name": "comment",
       "scope": [
-        "comment",
+        // "comment",
         "comment.line",
       ],
       "settings": {
@@ -473,11 +473,20 @@
     {
       "name": "comment.documentation",
       "scope": [
-        "comment.documentation",
         "comment.block",
       ],
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#E4002B"
+      }
+    },
+    {
+      "name": "teal",
+      "scope": [
+        "entity.name.namespace",
+      ],
+      "settings": {
+        "foreground": "#00B08B"
       }
     },
     {
@@ -615,6 +624,7 @@
     {
       "name": "tan-italic",
       "scope": [
+        "meta",
         "support.type.property-name.css",
       ],
       "settings": {
@@ -638,5 +648,5 @@
         "foreground": "#dc6e00"
       }
     },
-  ],
+  ]
 }

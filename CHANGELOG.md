@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### **Version 1.2.2**
+
+- **Update** small fixes
+
 ### **Version 1.2.1**
 
 - **Update** small fixes
