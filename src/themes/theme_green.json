@@ -440,8 +440,7 @@
     {
       "name": "string",
       "scope": [
-        "source.ts",
-        "source.tsx",
+        "source",
         "string",
         "string.quoted",
       ],
@@ -454,6 +453,7 @@
       "scope": [
         "string.quoted.double.json",
         "support.constant.property-value.css",
+        "meta.paragraph.markdown",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -463,7 +463,8 @@
     {
       "name": "comment",
       "scope": [
-        // "comment",
+        "punctuation.definition.heading.markdown",
+        "punctuation.definition.list.begin.markdown",
         "comment.line",
       ],
       "settings": {
@@ -503,6 +504,7 @@
       "scope": [
         "variable.other.property.ts",
         "variable.other.property.tsx",
+        "markup.underline.link.markdown",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -516,6 +518,7 @@
         "variable.other.object.tsx",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
+        "variable.key",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -568,8 +571,6 @@
         "punctuation.definition.template-expression.end",
         "keyword.operator.ternary",
         "constant.language.null",
-        "punctuation.definition.heading.markdown",
-        "punctuation.definition.list.begin.markdown",
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -582,6 +583,8 @@
         "entity.name.interface",
         "entity.name.enum",
         "punctuation.separator.dictionary.key-value",
+        "entity.name.section.markdown",
+        "punctuation.eq",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -592,6 +595,8 @@
       "name": "rose-bold",
       "scope": [
         "entity.name.enumMember",
+        "punctuation.definition.list.begin.markdown",
+        // "meta.paragraph.markdown",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -624,8 +629,8 @@
     {
       "name": "tan-italic",
       "scope": [
-        "meta",
-        "support.type.property-name.css",
+        // "meta",
+        "support.type.property-name",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -635,8 +640,8 @@
     {
       "name": "orange-bold",
       "scope": [
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
+        // "punctuation.definition.string.begin",
+        // "punctuation.definition.string.end",
         "punctuation.separator",
         "punctuation.terminator",
         "keyword.operator",
