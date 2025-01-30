@@ -631,6 +631,7 @@
       "scope": [
         // "meta",
         "support.type.property-name",
+        "string.key",
       ],
       "settings": {
         "fontStyle": "italic",
