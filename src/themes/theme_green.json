@@ -267,19 +267,28 @@
     //   "foreground": "#00B140"
     // },
     "namespace": {
+      "fontStyle": "bold",
       "foreground": "#00B08B"
     },
     "namespace.library": {
-      "fontStyle": "bold",
+      "fontStyle": "italic bold",
       "foreground": "#00B08B"
     },
     "namespace.public": {
       "fontStyle": "italic",
       "foreground": "#00B08B"
     },
+    "namespace.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "builtinType": {
       "fontStyle": "bold",
       "foreground": "#00B08B"
+    },
+    "builtinType.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "class": {
       "foreground": "#298FC2"
@@ -287,6 +296,10 @@
     "class.defaultLibrary": {
       "fontStyle": "bold",
       "foreground": "#298FC2"
+    },
+    "class.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "const": {
       "foreground": "#298FC2"
@@ -299,12 +312,20 @@
       "fontStyle": "bold",
       "foreground": "#298FC2"
     },
+    "const.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "decorator": {
       "foreground": "#298FC2"
     },
     "decorator.library": {
       "fontStyle": "bold",
       "foreground": "#298FC2"
+    },
+    "decorator.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "property": {
       "fontStyle": "italic",
@@ -314,9 +335,17 @@
       "fontStyle": "bold",
       "foreground": "#298FC2"
     },
+    "property.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "parameter": {
       "fontStyle": "bold",
       "foreground": "#298FC2"
+    },
+    "parameter.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "struct": {
       "foreground": "#298FC2"
@@ -325,13 +354,21 @@
       "fontStyle": "bold",
       "foreground": "#298FC2"
     },
-    "number": {
-      "fontStyle": "bold",
-      "foreground": "#298FC2"
+    "struct.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
+    "string": {
+      "fontStyle": "italic",
+      "foreground": "#C7C9C7"
     },
     "string.macro": {
       "fontStyle": "bold",
       "foreground": "#5BC2E7"
+    },
+    "string.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "variable": {
       "foreground": "#5BC2E7"
@@ -340,17 +377,33 @@
       "fontStyle": "italic",
       "foreground": "#5BC2E7"
     },
+    "variable.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "enum": {
       "fontStyle": "bold",
       "foreground": "#991818"
+    },
+    "enum.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "enumMember": {
       "fontStyle": "italic",
       "foreground": "#a03535"
     },
+    "enumMember.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "interface": {
       "fontStyle": "italic",
       "foreground": "#991818"
+    },
+    "interface.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "type": {
       "fontStyle": "bold",
@@ -360,13 +413,25 @@
       "fontStyle": "bold",
       "foreground": "#991818"
     },
+    "type.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "escapeSequence": {
       "fontStyle": "bold",
       "foreground": "#ffffff"
     },
+    "escapeSequence.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "formatSpecifier": {
       "fontStyle": "bold",
       "foreground": "#ffffff"
+    },
+    "formatSpecifier.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "function": {
       "foreground": "#F0E87B"
@@ -379,6 +444,10 @@
       "fontStyle": "bold",
       "foreground": "#F0E87B"
     },
+    "function.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "keyword": {
       "foreground": "#AD1AAC"
     },
@@ -390,6 +459,10 @@
       "fontStyle": "bold",
       "foreground": "#AD1AAC"
     },
+    "keyword.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "method": {
       "foreground": "#C5A900"
     },
@@ -397,7 +470,15 @@
       "fontStyle": "bold",
       "foreground": "#C5A900"
     },
+    "method.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "event": {
+      "foreground": "#a03535"
+    },
+    "event.deprecated": {
+      "fontStyle": "italic strikethrough",
       "foreground": "#E4002B"
     },
     "macro": {
@@ -407,13 +488,17 @@
       "fontStyle": "bold",
       "foreground": "#991818"
     },
+    "macro.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "procMacro": {
       "fontStyle": "bold",
       "foreground": "#a03535"
     },
-    "string": {
-      "fontStyle": "italic",
-      "foreground": "#C7C9C7"
+    "procMacro.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
     },
     "semicolon": {
       "fontStyle": "bold",
@@ -434,7 +519,11 @@
     "parenthesis": {
       "fontStyle": "bold",
       "foreground": "#dc6e00"
-    }
+    },
+    "number": {
+      "fontStyle": "bold",
+      "foreground": "#298FC2"
+    },
   },
   "tokenColors": [
     {
@@ -544,6 +633,8 @@
         "entity.name.class",
         "entity",
         "entity.other.attribute-name.class.css",
+        "support.type.primitive",
+        "support.type.builtin",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -560,6 +651,7 @@
         "storage.modifier",
       ],
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#AD1AAC"
       }
     },

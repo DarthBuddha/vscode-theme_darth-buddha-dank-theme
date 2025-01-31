@@ -2,54 +2,58 @@
 
 ## Change Log
 
+### **Version 1.2.5**
+
+- **Changed** small fixes
+
 ### **Version 1.2.4**
 
-- **Update** small fixes
+- **Changed** small fixes
 
 ### **Version 1.2.3**
 
-- **Update** small fixes
+- **Changed** small fixes
 
 ### **Version 1.2.2**
 
-- **Update** small fixes
+- **Changed** small fixes
 
 ### **Version 1.2.1**
 
-- **Update** small fixes
+- **Changed** small fixes
 
 ### **Version 1.2.0**
 
-- **Update** Tauri React Typescript optamizations
+- **Added** Tauri React Typescript optamizations
 
 ### **Version 1.1.25**
 
-- **Update** minor changes
+- **Changed** minor changes
 
 ### **Version 1.1.24**
 
-- **Update** JSON5 support
+- **Added** JSON5 support
 
 ### **Version 1.1.23**
 
-- **Update** minor changes.
+- **Changed** minor changes.
 
 ### **Version 1.1.22**
 
-- **Update** added more js to match jsx, minor changes.
+- **Added** added more js to match jsx, minor changes.
 
 ### **Version 1.1.21**
 
-- **Update** Adjusted semanticTokenColors
+- **Changed** Adjusted semanticTokenColors
 
 ### **Version 1.1.20**
 
-- **Update** Added more syntax for type script and rust
+- **Added** Added more syntax for type script and rust
 
 ### **Version 1.1.19**
 
-- **Update** Added more syntax for type script and rust
-- **Update** VSCE
+- **Added** Added more syntax for type script and rust
+- **Changed** VSCE
 
 ### **Version 1.1.18** - **New**
 
