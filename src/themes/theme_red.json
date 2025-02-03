@@ -433,6 +433,14 @@
       "fontStyle": "italic strikethrough",
       "foreground": "#E4002B"
     },
+    "generic": {
+      "fontStyle": "bold",
+      "foreground": "#ffffff"
+    },
+    "generic.deprecated": {
+      "fontStyle": "italic strikethrough",
+      "foreground": "#E4002B"
+    },
     "function": {
       "foreground": "#F0E87B"
     },
